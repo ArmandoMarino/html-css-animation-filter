@@ -5,7 +5,7 @@
     border: 1px solid red;
     transition: 2s ease;
 }
-
+ 
 .ex-1-square:hover{
     background-color: red;
 }
