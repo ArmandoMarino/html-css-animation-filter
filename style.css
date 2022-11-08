@@ -116,10 +116,30 @@
 }
 
 
-
+/*ESERCIZIO 11*/ 
 .ex-11-icon {
     font-size: 60px;
 }
+
+.ex-11-icon:hover{
+    animation: rotationtreq 1s ease;
+
+}
+
+@keyframes rotationtreq{
+    
+    
+    90%{
+        transform: rotate(330deg);
+    }
+
+    100%{
+        transform: rotate(-330deg);
+    }
+
+}
+
+/*ESERCIZIO 12*/ 
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
