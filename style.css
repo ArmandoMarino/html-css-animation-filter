@@ -210,6 +210,8 @@
 
 /*SECONDO BOTTONE*/
 
+
+/*BOTTONE 13 GIRO A DESTRA*/
 .ex-13-button:hover > .ex-13-top-white{
     animation: giro-destra 3s linear;
 }
@@ -218,7 +220,6 @@
     
     0%{
         bottom: 100%;
-        
     }
    
     25%{
@@ -233,6 +234,38 @@
 
     75%{
         top: 100%;
+        right: 20%;
+    }
+
+    100%{
+        top: 0%;
+        right: 20%;
+    }
+}
+
+/*BOTTONE 13 GIRO A SINISTRA*/
+.ex-13-button:hover > .ex-13-bottom-white{
+    animation: giro-destra 3s linear;
+}
+
+@keyframes giro-destra {
+    
+    0%{
+        top: 100%;
+    }
+   
+    25%{
+        bottom: 100%;
+        right: 0%;
+    }
+
+    50%{
+        bottom: 0%;
+        right: 0%;
+    }
+
+    75%{
+        bottom: 0%;
         left: -10%;
     }
 
