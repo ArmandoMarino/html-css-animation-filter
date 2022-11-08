@@ -62,14 +62,39 @@
 
 
 /*ESERCIZIO 6*/ 
-.ex-6-img, .ex-7-img, .ex-8-img {
+.ex-6-img{
     width: 500px;
 }
+.ex-6-img:hover{
+    filter: grayscale(1);
+}
 
+/*ESERCIZIO 7*/ 
+.ex-7-img{
+    width: 500px;
+    transition: 1s ease;
+}
+.ex-7-img:hover{
+    filter: grayscale(1);
+}
+
+/*ESERCIZIO 8*/ 
+.ex-8-img{
+    width: 500px;
+    transition: 1s ease;
+} 
+.ex-8-img:hover{
+    filter: grayscale(1);
+    border-radius: 10%;
+}
+
+/*ESERCIZIO 9*/ 
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
 }
+
+/*ESERCIZIO 10*/ 
 .ex-10-icon {
     font-size: 60px;
 }
