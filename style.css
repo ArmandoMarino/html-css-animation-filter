@@ -234,43 +234,40 @@
 
     75%{
         top: 100%;
-        right: 20%;
+        left: -10%;
     }
 
     100%{
-        top: 0%;
-        right: 20%;
+        bottom: 100%;
+        left: -10%;
     }
-}
+} 
 
 /*BOTTONE 13 GIRO A SINISTRA*/
 .ex-13-button:hover > .ex-13-bottom-white{
-    animation: giro-destra 3s linear;
+    animation: giro-sinistra 3s linear;
 }
 
-@keyframes giro-destra {
+@keyframes giro-sinistra {
     
     0%{
         top: 100%;
     }
    
     25%{
-        bottom: 100%;
-        right: 0%;
+        right: 90%;
     }
 
     50%{
-        bottom: 0%;
-        right: 0%;
+        right: 100%;
+        top: -10%;
     }
 
     75%{
-        bottom: 0%;
-        left: -10%;
+        
     }
 
     100%{
-        bottom: 100%;
-        left: -10%;
+        
     }
 }
